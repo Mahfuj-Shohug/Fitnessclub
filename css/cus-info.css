@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url(../Images/Logbg.jpg);
+    background-size: cover;
+    font-family: 'Russo One', sans-serif;
+}
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 500px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    background-color: rgba(28, 241, 46, 0.8);
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+    color: #fff !important;
+
+}
+
+
+@keyframes example {
+    from {
+        background: rgba(31, 236, 185, 0.6);
+    }
+
+    to {
+        background-color: rgba(55, 235, 79, 0.8);
+    }
+}
+
+.registration {
+    padding: 40px 40px;
+    height: 670px;
+    margin-bottom: 0;
+    font-size: small;
+}
+
+.user {
+    width: 100pxh;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50%);
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(255, 250, 240);
+}
+
+.registration p {
+
+    font-weight: normal;
+}
+
+.loginbox input {
+    widows: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+}
+
+
+::placeholder {
+    color: rgba(26, 29, 34, 0.8);
+    font-family: 'Russo One', sans-serif;
+}
+
+.loginbox button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 270px;
+    color: rgb(75, 255, 30);
+    font-size: 16px;
+    background: floralwhite;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.loginbox input[type="submit"]:hover {
+    background: rgb(235, 189, 37);
+    color: rgb(179, 32, 123);
+
+}
+
+.loginbox a {
+    color: rgb(224, 139, 153);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: 'Russo One', sans-serif;
+}
